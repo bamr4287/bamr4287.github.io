@@ -1,10 +1,10 @@
 ---
 layout: "post"
-title: "Jekyll-test"
+title: "Git-Jekyll-Pages"
 date: "2021-08-15 15:23"
+permalink: /post/git-jekyll/
 ---
 
-# hi
 
 ## Welcome to GitHub Pages
 
