@@ -7,6 +7,7 @@ author: "Amr"
 sidebar: toc
 ---
 {% include navigation.html}
+{{ site.data.navigation}}
 
 # Hello World
 
