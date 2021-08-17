@@ -1,6 +1,7 @@
-layout: page
-title: "PAGE TITLE"
-permalink: /about/#
-
+---
+layout: default
+title: "About me"
+permalink: /about/
+---
 
 This is amr's test about page
