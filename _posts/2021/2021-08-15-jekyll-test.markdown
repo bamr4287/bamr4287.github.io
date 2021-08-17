@@ -12,3 +12,7 @@ sidebar: toc
 # Hello World
 
 This is my first post with front matter
+
+'''bash
+wget -L https://raw.githubusercontent.com/pages-themes/hacker/master/_layouts/default.html
+''''
