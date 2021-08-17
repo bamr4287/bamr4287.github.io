@@ -6,7 +6,7 @@ permalink: /post/git-jekyll/
 author: "Amr"
 sidebar: toc
 ---
-
+{% include navigation.html}
 
 # Hello World
 
