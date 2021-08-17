@@ -6,13 +6,13 @@ permalink: /post/git-jekyll/
 author: "Amr"
 sidebar: toc
 ---
-{% include navigation.html %}
+{% include navigation.html%}
 {{ site.data.navigation}}
 
 # Hello World
 
 This is my first post with front matter
 
-'''bash
+```bash
 wget -L https://raw.githubusercontent.com/pages-themes/hacker/master/_layouts/default.html
-''''
+```
