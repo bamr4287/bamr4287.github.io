@@ -1,4 +1,12 @@
-## Welcome to GitHub Pages
+# Hello World
+_You're now a web developer, Jr_
+
+This is your static site where you store all your tools/tips/tricks and any other piece of infomration your fellow citizens can leverage.
+
+To even get to this point, you need to complete the following quests:
+   1. Command and Conquer
+   1. Git you shit
+
 
 You can use the [editor on GitHub](https://github.com/bamr87/bamr87.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
