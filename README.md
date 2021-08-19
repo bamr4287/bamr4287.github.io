@@ -2,6 +2,7 @@
 title: "Home"
 description: "Jekyll building"
 author: "bamr87"
+permalink: /index.html
 ---
 # Hello World
 _I'm now a web Jr. Web developer_
