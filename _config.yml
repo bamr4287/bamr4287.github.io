@@ -1,11 +1,6 @@
 title: "IT-Journey"
 theme: minima
 markdown: kramdown
-author:
-  name: bamr87
-  email: fakemail@fake.com
-social_links:
-  twitter: bamr87
-  github: bamr87
+author: bamr87
 minima:
   date_format: "%b %-d, %Y"
