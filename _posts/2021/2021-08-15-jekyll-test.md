@@ -1,5 +1,4 @@
 ---
-layout: "post"
 title: "Git-Jekyll-Pages"
 date: "2021-08-15 15:23"
 permalink: /post/git-jekyll/
