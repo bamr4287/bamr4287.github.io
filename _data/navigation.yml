@@ -1,10 +1,10 @@
 # Belongs at: /_data/navigation.yml
 
-- title: Home
+- title: readme
   url: /
 
 - title: Group of Things
-  url: /group/
+  url: /post/git-jekyll
   sublinks:
     - title: Sub-item 1
       url: /group/si1

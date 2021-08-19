@@ -1,5 +1,10 @@
+---
+title: "Home"
+description: "Jekyll building"
+author: "bamr87"
+---
 # Hello World
-_You're now a web developer, Jr_
+_I'm now a web Jr. Web developer_
 
 This is your static site where you store all your tools/tips/tricks and any other piece of infomration your fellow citizens can leverage.
 
