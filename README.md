@@ -13,6 +13,11 @@ To even get to this point, you need to complete the following quests:
    1. Command and Conquer
    1. Git you shit
 
+The source code for this theme is at [Minima](https://github.com/jekyll/minima)
+
+If you want to customize the theme, copy the _layouts folder into your gihub root dir.
+
+<!-- TODO: add sparse check out method to add layout file -->
 
 You can use the [editor on GitHub](https://github.com/bamr87/bamr87.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
