@@ -3,6 +3,7 @@ title: "Home"
 description: "Jekyll building"
 author: "bamr87"
 permalink: /index.html
+TODO: add sparse check out method to add layout file
 ---
 # Hello World
 _I'm now a web Jr. Web developer_
@@ -17,33 +18,12 @@ The source code for this theme is at [Minima](https://github.com/jekyll/minima)
 
 If you want to customize the theme, copy the _layouts folder into your gihub root dir.
 
-<!-- TODO: add sparse check out method to add layout file -->
+
 
 You can use the [editor on GitHub](https://github.com/bamr87/bamr87.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
 Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
 
