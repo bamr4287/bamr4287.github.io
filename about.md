@@ -12,7 +12,7 @@ echo "hello world"
 cd ~
 ```
 
-```powerShell
+```powershell
 write-host "hello world"
 ```
 
