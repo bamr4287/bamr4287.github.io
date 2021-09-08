@@ -7,16 +7,16 @@ permalink: /about/
 # Programming Languages
 
 
-```Bash
+```bash
 echo "hello world"
 cd ~
 ```
 
-```PowerShell
+```powerShell
 write-host "hello world"
 ```
 
-```Python
+```python
 print "hello world"
 ```
 
@@ -46,7 +46,7 @@ int main(void)
     puts("Hello, world!");
 }
 ```
-```C++
+```c++
 #include 
  
 int main()
@@ -57,11 +57,11 @@ int main()
 }
 ```
 
-```HTML
+```html
 <p>Hello World!</p>
 ```
 
-```CSS
+```css
 body {
   background-color: lightblue;
 }
@@ -85,7 +85,7 @@ LEFT JOIN table2
 ON table1.column_name = table2.column_name;
 ```
 
-```PHP
+```php
 <?php
 echo "My first PHP script!";
 ?>
