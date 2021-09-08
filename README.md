@@ -1,7 +1,7 @@
 ---
 title: "Home"
+layout: post
 description: "Jekyll building"
-author: "bamr87"
 permalink: /index.html
 TODO: add sparse check out method to add layout file
 ---

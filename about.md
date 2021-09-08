@@ -1,5 +1,6 @@
 ---
 title: "About me"
+layout: post
 permalink: /about/
 ---
 
@@ -8,6 +9,7 @@ permalink: /about/
 
 ```Bash
 echo "hello world"
+cd ~
 ```
 
 ```PowerShell
@@ -76,7 +78,7 @@ p {
 ```
 
 
-```SQL
+```sql
 SELECT column_name(s)
 FROM table1
 LEFT JOIN table2
