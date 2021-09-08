@@ -20,7 +20,7 @@ write-host "hello world"
 print "hello world"
 ```
 
-```Java
+```java
 import javax.swing.JFrame;  //Importing class JFrame
 import javax.swing.JLabel;  //Importing class JLabel
 public class HelloWorld {
@@ -34,11 +34,11 @@ public class HelloWorld {
     }
 }
 ```
-```JavaScript
+```javascript
 document.write('Hello, world!');
 ```
 
-```C
+```c
 #include 
  
 int main(void)
