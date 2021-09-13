@@ -1,20 +1,27 @@
 ---
 title: "Home"
-layout: post
-description: "Jekyll building"
+layout: home
+description: "Github Pages with Jekyll Site"
 permalink: /index.html
 TODO: add sparse check out method to add layout file
 ---
 # Hello World
 _I'm now a web Jr. Web developer_
 
+```javascript
+document.write('Hello, world!');
+```
+
 This is your static site where you store all your tools/tips/tricks and any other piece of information your fellow citizens can leverage.
 
 To even get to this point, you need to complete the following quests:
    1. Command and Conquer
-   1. Git you shit
+   2. Git you shit
+   3. Dr. Jekyll and Mr. Hub
 
+[Local Site Address](http://127.0.0.1:4000/)
 
+[Public Site Address](http://bamr87.github.io/)
 
 If you want to customize the theme, copy the _layouts folder into your gihub root dir.
 
