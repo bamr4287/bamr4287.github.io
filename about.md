@@ -1,7 +1,10 @@
 ---
-title: "About me"
-layout: post
+title: About me
+layout: single
 permalink: /about/
+lastmod: '2021-09-15T20:37:44.583Z'
+toc: true
+sidebar: true
 ---
 
 # Programming Languages
@@ -61,19 +64,20 @@ int main()
 <p>Hello World!</p>
 ```
 
+```scss
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+
+body{
+  font: 100% $font-stack;
+  color: $primary-color;
+}
+```
+
 ```css
 body {
-  background-color: lightblue;
-}
-
-h1 {
-  color: white;
-  text-align: center;
-}
-
-p {
-  font-family: verdana;
-  font-size: 20px;
+  font: 100% Helvetica, sans-serif;
+  color: #333;
 }
 ```
 
@@ -90,6 +94,8 @@ ON table1.column_name = table2.column_name;
 echo "My first PHP script!";
 ?>
 ```
+
+
 
 ```LaTeX
 %-----------Technical SKILLS-----------

@@ -1,16 +1,56 @@
 ---
-title: "Home"
-layout: home
-description: "Github Pages with Jekyll Site"
+title: Home
+layout: single
+description: Github Pages with Jekyll Site
 permalink: /index.html
-TODO: add sparse check out method to add layout file
+categories:
+  - Readme
+  - Home
+  - Start
+  - Jekyll
+  - Github
+  - Pages
+  - Markdown
+motivation: learning
+sidebar:
+  nav: docs
+toc: true
+toc_sticky: true
+lastmod: '2021-09-17T01:29:38.183Z'
 ---
 # Hello World
-_I'm now a web Jr. Web developer_
+
+_This is my Jekyll site with all my documentation and journals_
+
+## Feature List: 
+
+- [x] Code Copy button
+- [x] Side table of contents
+- [ ] Dark Mode toggle
+- [ ] Navigation bar dropdown
+- [ ] Tool box page
+- [ ] Contribution Instructions
+- [ ] Search engine
+- [ ] Programming Language cheat sheets
+- [ ] Accordion TOC
+- [ ] bootstrap4
+- [ ] auto navbar 
+  - [ ] [Just the Docs](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/)
 
 ```javascript
 document.write('Hello, world!');
 ```
+
+## Project List:
+
+- [ ] Jekyll Theme - Zer0-Mistakes
+- [ ] Documentation site [it-journey](../it-journey/)
+  - [Jekyll Doc Theme](https://idratherbewriting.com/documentation-theme-jekyll/index.html)
+  - [Markdown Guide](https://www.markdownguide.org/) 
+- [ ] Create Github Lab Course
+- [ ] Initializing your world
+
+# Info
 
 This is your static site where you store all your tools/tips/tricks and any other piece of information your fellow citizens can leverage.
 
@@ -19,13 +59,13 @@ To even get to this point, you need to complete the following quests:
    2. Git you shit
    3. Dr. Jekyll and Mr. Hub
 
-[Local Site Address](http://127.0.0.1:4000/)
+[Local Site Address](http://127.0.0.1:4001/)
 
 [Public Site Address](http://bamr87.github.io/)
 
 If you want to customize the theme, copy the _layouts folder into your gihub root dir.
 
-[it-journey](../it-journey/)
+Currently using the [Minimal Mistakes Theme](https://mmistakes.github.io/minimal-mistakes/).
 
 You can use the [editor on GitHub](https://github.com/bamr87/bamr87.github.io/edit/main/README.md) to maintain and preview the content for your website in Markdown files.
 
@@ -33,6 +73,8 @@ Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://j
 
 
 For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+
+[Markdown Guide](https://www.markdownguide.org/)
 
 ### Jekyll Themes
 
