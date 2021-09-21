@@ -7,6 +7,15 @@
 # For technical reasons, this file is *NOT* reloaded automatically when you use
 # `jekyll serve`. If you change this file, please restart the server process.
 
+# Theme Settings
+#
+# Review documentation to determine if you should use `theme` or `remote_theme`
+
+# theme                  : "zer0-mistakes-jekyll"
+# remote_theme           : "bamr87/zer0-mistakes"
+theme_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+
+
 title: "IT-Journey"
 # theme: "minima"
 markdown: kramdown
@@ -24,14 +33,13 @@ header_pages:
   - /docs/structure/
 include:
   - _docs/
+  - _cheats/
 plugins:
   - jekyll-include-cache
 port: 4001
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
-
-minimal_mistakes_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 footer:
   links:
@@ -45,11 +53,17 @@ footer:
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/mmistakes"
 
+collections:
+  docs:
+    output: true
+  cheatsheet:
+    output: true
+
 # Defaults https://jekyllrb.com/docs/configuration/front-matter-defaults/
 defaults:
   # _posts
   - scope:
-      path: "_docs"
+      path: ""
     values:
       layout: single
       author_profile: true
@@ -57,9 +71,34 @@ defaults:
       comments: # true
       share: true
       related: true
+      toc: true
+  # _docs
+  - scope:
+      path: "_docs"
+      type: "docs"
+    values:
+      layout: "single"
+      share: true
+      toc: true
+      toc_sticky: true
+      sidebar:
+        - nav: docs
+  # _cheats
+  - scope:
+      path: "_cheats"
+      type: "cheatsheet"
+    values:
+      layout: "single"
+      share: true
+      toc: true
+      toc_sticky: true
+      sidebar:
+        - nav: cheat
 
 # Outputting
 permalink: /:categories/:title/
 # paginate: 5 # amount of posts to show
 # paginate_path: /page:num/
 timezone: America/Denver # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+

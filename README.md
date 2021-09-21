@@ -1,6 +1,6 @@
 ---
 title: Home
-layout: single
+author: null
 description: Github Pages with Jekyll Site
 permalink: /index.html
 categories:
@@ -11,14 +11,15 @@ categories:
   - Github
   - Pages
   - Markdown
-motivation: learning
 sidebar:
   nav: docs
 toc: true
 toc_sticky: true
-lastmod: '2021-09-17T01:29:38.183Z'
+lastmod: '2021-09-21T19:24:43.668Z'
 ---
 # Hello World
+
+
 
 _This is my Jekyll site with all my documentation and journals_
 
@@ -26,8 +27,12 @@ _This is my Jekyll site with all my documentation and journals_
 
 - [x] Code Copy button
 - [x] Side table of contents
+- [x] Add quick edit links to GitHub and VS Code
 - [ ] Dark Mode toggle
+  - [ ] [JTD](https://pmarsceill.github.io/just-the-docs/docs/customization/)
 - [ ] Navigation bar dropdown
+- [ ] auto genereate sidebar
+- [ ] alternate TOC structures (easy/med/hard) (pc/mac/linux) (by role)
 - [ ] Tool box page
 - [ ] Contribution Instructions
 - [ ] Search engine
@@ -40,6 +45,13 @@ _This is my Jekyll site with all my documentation and journals_
 ```javascript
 document.write('Hello, world!');
 ```
+
+Edit in [VSCode](vscode://file/C:/Users/AmrAbdel-Motaleb/OneDrive/Documents/GitHub/{{ page.path}})
+
+```powershell
+vscode://file/C:/Users/AmrAbdel-Motaleb/OneDrive/Documents/GitHub/bamr87.github.io/README.md
+```
+[source](https://stackoverflow.com/questions/48641921/is-it-possible-to-use-the-vscode-hyperlink-to-open-a-file-or-directory-in-code) 
 
 ## Project List:
 

@@ -1,9 +1,15 @@
 ---
-title: "Installation"
+title: Installation
+author: amr
+layout: single
+collection: test
 permalink: /docs/installation/
-excerpt: "Instructions for installing the theme for new and existing Jekyll based sites."
-last_modified_at: 2019-08-20T21:36:18-04:00
+excerpt: Instructions for installing the theme for new and existing Jekyll based sites.
+last_modified_at: 2019-08-21T01:36:18.000Z
 toc: true
+lastmod: '2021-09-20T18:53:40.419Z'
+sidebar:
+  nav: docs
 ---
 
 ## Install the theme

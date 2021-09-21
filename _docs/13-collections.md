@@ -1,6 +1,8 @@
 ---
 title: "Working with Collections"
+author: "amr"
 permalink: /docs/collections/
+collection: docs
 excerpt: "Suggestions and Front Matter defaults for working with collections."
 last_modified_at: 2018-03-20T16:00:02-04:00
 ---

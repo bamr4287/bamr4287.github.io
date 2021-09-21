@@ -1,13 +1,9 @@
 ---
-title: About
-description: About This Site
-layout: single
-# collection: 
-permalink: /about/
+title: Cheat sheets
+description: Cheats
+collection: cheatsheet
+permalink: /cheat/
 lastmod: '2021-09-20T19:08:13.141Z'
-toc: true
-sidebar: 
-  nav: about
 ---
 
 # Programming Languages

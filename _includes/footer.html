@@ -25,6 +25,9 @@
       </div>
       <div class="footer-col">
         <p>{{ site.description | escape }}</p>
+        {% if site.repository -%}
+        <a href="{{ site.repository | escape }}">Edit</a>
+      {% endif -%}
       </div>
     </div>
 

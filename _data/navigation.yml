@@ -24,6 +24,8 @@ main:
     url: /docs/quick-start-guide/
   - title: "Posts"
     url: /post/index/
+  - title: "Cheats"
+    url: /cheat/
   - title: "About"
     url: /about/
 
@@ -83,6 +85,23 @@ docs:
         url: /docs/license/
       - title: "Terms &amp; Privacy Policy"
         url: /terms/
+
+# Cheatsheets
+cheat:
+  - title: "Cheatsheets"
+    children:
+      - title: "PowerShell"
+        url: /cheat/powershell/
+      - title: "Bash"
+        url: /cheat/bash/
+
+about:
+  - title: "about"
+    children:
+      - title: "about me"
+        url: /cheat/powershell/
+      - title: "about this site"
+        url: /cheat/bash/
 
 # sidebar navigation list sample
 sidebar-sample:
