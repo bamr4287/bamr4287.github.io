@@ -1,10 +1,10 @@
 ---
-title: "Git-Jekyll-Pages"
-date: "2021-08-15 15:23"
-layout: post
+title: Git-Jekyll-Pages
+date: '2021-08-15 15:23'
 permalink: /post/git-jekyll/
-author: "Amr"
+
 sidebar: toc
+lastmod: '2021-09-23T14:56:04.317Z'
 ---
 
 # Hello World

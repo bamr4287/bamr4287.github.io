@@ -1,9 +1,9 @@
 ---
 title: Cheat sheets
 description: Cheats
-collection: cheatsheet
+collection: cheats
 permalink: /cheat/
-lastmod: '2021-09-20T19:08:13.141Z'
+lastmod: '2021-09-23T15:18:23.214Z'
 ---
 
 # Programming Languages

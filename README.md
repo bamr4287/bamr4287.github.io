@@ -1,7 +1,6 @@
 ---
 title: Home
-author: null
-description: Github Pages with Jekyll Site
+description: This is where you start your journey
 permalink: /index.html
 categories:
   - Readme
@@ -11,15 +10,11 @@ categories:
   - Github
   - Pages
   - Markdown
-sidebar:
-  nav: docs
 toc: true
 toc_sticky: true
-lastmod: '2021-09-21T19:24:43.668Z'
+lastmod: '2021-09-23T15:27:51.723Z'
 ---
 # Hello World
-
-
 
 _This is my Jekyll site with all my documentation and journals_
 
@@ -41,6 +36,7 @@ _This is my Jekyll site with all my documentation and journals_
 - [ ] bootstrap4
 - [ ] auto navbar 
   - [ ] [Just the Docs](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/)
+- [ ] Add back to top button in cellphone view
 
 ```javascript
 document.write('Hello, world!');
@@ -51,7 +47,7 @@ Edit in [VSCode](vscode://file/C:/Users/AmrAbdel-Motaleb/OneDrive/Documents/GitH
 ```powershell
 vscode://file/C:/Users/AmrAbdel-Motaleb/OneDrive/Documents/GitHub/bamr87.github.io/README.md
 ```
-[source](https://stackoverflow.com/questions/48641921/is-it-possible-to-use-the-vscode-hyperlink-to-open-a-file-or-directory-in-code) 
+[source](https://stackoverflow.com/questions/48641921/is-it-possible-to-use-the-vscode-hyperlink-to-open-a-file-or-directory-in-code)
 
 ## Project List:
 

@@ -1,13 +1,15 @@
 ---
 title: About
 description: About This Site
-layout: single
-# collection: 
+collection: cheats
 permalink: /about/
 lastmod: '2021-09-20T19:08:13.141Z'
 toc: true
-sidebar: 
-  nav: about
+layouts_gallery:
+  - url: /assets/images/mm-layout-splash.png
+    image_path: /assets/images/mm-layout-splash.png
+    alt: "splash layout example"
+author_profile: true
 ---
 
 # Programming Languages

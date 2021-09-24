@@ -15,82 +15,145 @@
 # remote_theme           : "bamr87/zer0-mistakes"
 theme_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
+# Site Settings
+title                    : "IT-Journey"
+subtitle                 : "Git it done" # site tagline that appears below site title in masthead
+title_separator          : "-"
+locale                   : "en-US"
+name                     : &name "Amr Abdel"
+description              : &description "Scrolls and spells of IT magic."
+url                      : "https://bamr87.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
+repository               : "bamr87/bamr87.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+local_repo               : "bamr87.github.io"
+local_git                : "C:/Users/AmrAbdel-Motaleb/OneDrive/Documents/GitHub/"
+baseurl                  : # the subpath of your site, e.g. "/blog"
+teaser                   : /assets/images/teaser_default-500x300.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
+logo                     : /assets/images/great-lamda-pyramids-v1.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+breadcrumbs              : true # true, false (default)
+words_per_minute         : 200
+port                     : 4001 # Jekyll Serve Dev port
 
-title: "IT-Journey"
-# theme: "minima"
+# Site Author
+author:
+  name             : *name # *name is a YAML reference pointing to the &anchor earlier
+  avatar           : "/assets/images/amr-avatar.jpg"
+  bio              : "IT nerd trying to be an IT hero"
+  location         : "Denver, CO"
+  links:
+    - label: "BASH Consulting"
+      icon: "fas fa-fw fa-link"
+      url: "https://bashconsultants.com"
+    - label: "Twitter"
+      icon: "fab fa-fw fa-twitter-square"
+      url: "https://twitter.com/bamr87"
+    - label: "GitHub"
+      icon: "fab fa-fw fa-github"
+      url: "https://github.com/bamr87"
+    - label: "Instagram"
+      icon: "fab fa-fw fa-instagram"
+      url: "https://instagram.com/bamrman"
+
+# Social Sharing
+twitter:
+  username               : &twitter "amr"
+facebook:
+  username               : &facebook "amr"
+  app_id                 :
+  publisher              :
+og_image                 : "/assets/images/B_Logo_v2_0.png" # Open Graph/Twitter default site image
+# For specifying social profiles, used in _includes/seo.html
+# - https://developers.google.com/structured-data/customize/social-profiles
+social:
+  type                   : # Person or Organization (defaults to Person)
+  name                   : # If the user or organization name differs from the site's name
+  links                  : # An array of links to social media profiles
+    - "https://twitter.com/bamr87"
+    - "https://www.facebook.com/bamrabdel"
+
 markdown: kramdown
-author: bamr87
-# minima:
-#   date_format: "%b %-d, %Y"
-#   skin: dark
-header_pages:
-  - README.md
-  - about.md
-  - portfolio.md
-  - blog.md
-  - cheat-sheets.md
-  - contact.md
-  - /docs/structure/
+
 include:
   - _docs/
   - _cheats/
 plugins:
   - jekyll-include-cache
-port: 4001
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
+
+# Footer Links Settings
 
 footer:
   links:
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/mmistakes"
+      url: "https://twitter.com/bamr87"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/mmistakes"
+      url: "https://github.com/bamr87"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/mmistakes"
+      url: "https://instagram.com/bamr87"
 
+# Collections
 collections:
   docs:
     output: true
-  cheatsheet:
+    permalink: /:collection/:path/    
+  cheats:
     output: true
+    permalink: /:collection/:path/    
 
 # Defaults https://jekyllrb.com/docs/configuration/front-matter-defaults/
 defaults:
-  # _posts
+  # ALL
   - scope:
       path: ""
     values:
       layout: single
+      show_date: true
       author_profile: true
       read_time: true
       comments: # true
       share: true
       related: true
       toc: true
+      toc_sticky: true     
+  # _posts
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: single
+      show_date: true
+      author_profile: true
+      read_time: true
+      comments: # true
+      share: true
+      related: true
+      toc: true
+      toc_sticky: true      
   # _docs
   - scope:
       path: "_docs"
-      type: "docs"
+      type: docs
     values:
-      layout: "single"
+      layout: single
       share: true
       toc: true
-      toc_sticky: true
+      author_profile: false
       sidebar:
         - nav: docs
   # _cheats
   - scope:
       path: "_cheats"
-      type: "cheatsheet"
+      type: cheats
     values:
-      layout: "single"
+      layout: single
       share: true
       toc: true
+      author_profile: false
       toc_sticky: true
       sidebar:
         - nav: cheat

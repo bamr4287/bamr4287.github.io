@@ -36,9 +36,14 @@ layout: default
       <section class="page__content e-content" itemprop="text">
         {% if page.toc %}
           <aside class="sidebar__right {% if page.toc_sticky %}sticky{% endif %}">
-            <a href="{{site.github.repository_url}}/blob/gh-pages/{{page.name}}">Edit this page</a>
-            <a href="vscode://file/C:/Users/AmrAbdel-Motaleb/OneDrive/Documents/GitHub/bamr87.github.io/{{ page.path }}">Edit in VS Code</a>
-            <br>
+          <div class="sidebar__top">
+            <a href="{{site.github.repository_url}}/blob/gh-pages/{{page.name}}">
+              <i class="fab fa-github-square"></i>
+            </a>
+            <a href="vscode://file/{{ site.local_git}}/{{ site.local_repo }}/{{ page.path }}">
+              <i class="fas fa-laptop-code"></i>
+            </a>
+          </div>  
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>
               {% include toc.html sanitize=true html=content h_min=1 h_max=6 class="toc__menu" skip_no_ids=true %}
