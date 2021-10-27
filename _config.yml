@@ -1,40 +1,57 @@
 # Welcome to Jekyll!
 #
+# This config file is meant for settings that affect your whole blog, values
+# which you are expected to set up once and rarely edit after that. If you find
+# yourself editing this file very often, consider using Jekyll's data files
+# feature for the data you need to update frequently.
+#
+# For technical reasons, this file is *NOT* reloaded automatically when you use
+# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+#
+# If you need help with YAML syntax, here are some quick references for you: 
+# https://learn-the-web.algonquindesign.ca/topics/markdown-yaml-cheat-sheet/#yaml
+# https://learnxinyminutes.com/docs/yaml/
+#
 # You can find config options at: https://jekyllrb.com/docs/configuration/options/
 #
-# This config file is meant for settings that affect your entire site, values
-# which you are expected to set up once and rarely need to edit after that.
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# `jekyll serve`. If you change this file, please restart the server process.
-
-# Theme Settings
-#
-# Review documentation to determine if you should use `theme` or `remote_theme`
+# These are used to personalize your new site. If you look in the HTML files,
+# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
+# You can create any custom variable you would like, and they will be accessible
+# in the templates via {{ site.myvariable }}.
 
 # theme                  : "zer0-mistakes-jekyll"
 # remote_theme           : "bamr87/zer0-mistakes"
-theme_skin    : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
+theme_skin                : "dark" # "air", "aqua", "contrast", "dark", "dirt", "neon", "mint", "plum", "sunrise"
 
 # Site Settings
+
 title                    : "IT-Journey"
 subtitle                 : "Git it done" # site tagline that appears below site title in masthead
-title_separator          : "-"
+subtitle_url             : "127.0.0.1"
+masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
+title_separator          : "|"
 locale                   : "en-US"
 name                     : &name "Amr Abdel"
-description              : &description "Scrolls and spells of IT magic."
+email                    : amr.abdel@gmail.com
+description              : &description >- # this means to ignore newlines until "baseurl:"
+  "Scrolls and spells of IT magic."
+  Write an awesome description for your new site here. You can edit this
+  line in _config.yml. It will appear in your document head meta (for
+  Google search results) and in your feed.xml site description.
+baseurl                  : # the subpath of your site, e.g. "/blog"
 url                      : "https://bamr87.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 repository               : "bamr87/bamr87.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 local_repo               : "bamr87.github.io"
 local_git                : "C:/Users/AmrAbdel-Motaleb/OneDrive/Documents/GitHub/"
-baseurl                  : # the subpath of your site, e.g. "/blog"
 teaser                   : /assets/images/teaser_default-500x300.png # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : /assets/images/great-lamda-pyramids-v1.png # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
-masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
 breadcrumbs              : true # true, false (default)
 words_per_minute         : 200
 port                     : 4001 # Jekyll Serve Dev port
+dg_port                  : "4002" # Doppelganger site
 
-# Site Author
+# Identity
+
 author:
   name             : *name # *name is a YAML reference pointing to the &anchor earlier
   avatar           : "/assets/images/amr-avatar.jpg"
@@ -71,13 +88,41 @@ social:
     - "https://twitter.com/bamr87"
     - "https://www.facebook.com/bamrabdel"
 
+# Conversion
 markdown: kramdown
+highlighter: rouge
+lsi: false
+excerpt_separator: "\n\n"
+incremental: false
 
-include:
-  - _docs/
-  - _cheats/
+# Markdown Processing
+kramdown:
+  input: GFM
+  hard_wrap: false
+  auto_ids: true
+  footnote_nr: 1
+  entity_output: as_char
+  toc_levels: 1..6
+  smart_quotes: lsquo,rsquo,ldquo,rdquo
+  enable_coderay: false
+
+# include:
+#   - _docs/
+#   - _cheats/
+
+# Plugins (previously gems:)
 plugins:
   - jekyll-include-cache
+
+# mimic GitHub Pages with --safe
+whitelist:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-gist
+  - jekyll-feed
+  - jemoji
+  - jekyll-include-cache
+
 sass:
   sass_dir: _sass
   style: compressed # https://sass-lang.com/documentation/file.SASS_REFERENCE.html#output_style
@@ -100,10 +145,10 @@ footer:
 collections:
   docs:
     output: true
-    permalink: /:collection/:path/    
+    permalink: /:collection/:path/
   cheats:
     output: true
-    permalink: /:collection/:path/    
+    permalink: /:collection/:path/
 
 # Defaults https://jekyllrb.com/docs/configuration/front-matter-defaults/
 defaults:
@@ -113,14 +158,16 @@ defaults:
     values:
       layout: single
       show_date: true
-      author_profile: true
+      author_profile: false
       read_time: true
       comments: # true
       share: true
       related: true
       toc: true
       toc_sticky: true     
-  # _posts
+      sidebar:
+        - nav: home
+      # _posts
   - scope:
       path: ""
       type: posts

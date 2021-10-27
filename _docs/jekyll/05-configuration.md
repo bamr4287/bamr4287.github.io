@@ -1,11 +1,11 @@
 ---
 title: Configuration
-permalink: /docs/configuration/
 excerpt: Settings for configuring and customizing the theme.
 last_modified_at: 2021-05-11T14:40:42.000Z
 toc: true
 type: docs
-lastmod: '2021-09-20T22:59:11.843Z'
+permalink: /docs/jekyll/configuration/
+lastmod: '2021-09-24T21:16:53.210Z'
 ---
 
 Settings that affect your entire site can be changed in [Jekyll's configuration file](https://jekyllrb.com/docs/configuration/): `_config.yml`, found in the root of your project. If you don't have this file you'll need to copy or create one using the theme's [default `_config.yml`](https://github.com/mmistakes/minimal-mistakes/blob/master/_config.yml) as a base.

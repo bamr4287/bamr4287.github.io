@@ -2,12 +2,11 @@
 title: Installation
 author: amr
 layout: single
-collection: test
-permalink: /docs/installation/
+collection: docs
 excerpt: Instructions for installing the theme for new and existing Jekyll based sites.
 last_modified_at: 2019-08-21T01:36:18.000Z
 toc: true
-lastmod: '2021-09-20T18:53:40.419Z'
+lastmod: '2021-09-24T21:03:43.300Z'
 sidebar:
   nav: docs
 ---

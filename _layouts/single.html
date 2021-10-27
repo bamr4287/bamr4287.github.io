@@ -43,6 +43,7 @@ layout: default
             <a href="vscode://file/{{ site.local_git}}/{{ site.local_repo }}/{{ page.path }}">
               <i class="fas fa-laptop-code"></i>
             </a>
+            <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
           </div>  
             <nav class="toc">
               <header><h4 class="nav__title"><i class="fas fa-{{ page.toc_icon | default: 'file-alt' }}"></i> {{ page.toc_label | default: site.data.ui-text[site.locale].toc_label | default: "On this page" }}</h4></header>

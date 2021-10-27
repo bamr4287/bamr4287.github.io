@@ -12,7 +12,8 @@ categories:
   - Markdown
 toc: true
 toc_sticky: true
-lastmod: '2021-09-23T15:27:51.723Z'
+lastmod: '2021-10-21T02:01:19.157Z'
+sidebar: toc
 ---
 # Hello World
 
@@ -37,6 +38,8 @@ _This is my Jekyll site with all my documentation and journals_
 - [ ] auto navbar 
   - [ ] [Just the Docs](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/)
 - [ ] Add back to top button in cellphone view
+- [ ] add [plugins](https://jekyllcodex.org/without-plugins/) without plugins
+- [ ] Auto integrate/embed source code files into documentation
 
 ```javascript
 document.write('Hello, world!');

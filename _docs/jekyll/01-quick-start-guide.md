@@ -1,11 +1,13 @@
 ---
-title: "Quick-Start Guide"
-permalink: /docs/quick-start-guide/
-excerpt: "How to quickly install and setup Minimal Mistakes for use with GitHub Pages."
-last_modified_at: 2021-06-07T08:48:05-04:00
+title: Quick-Start Guide
+categories: 
+   - Jekyll
+excerpt: How to quickly install and setup Minimal Mistakes for use with GitHub Pages.
+last_modified_at: 2021-06-07T12:48:05.000Z
 redirect_from:
-  - /theme-setup/
+   - /theme-setup/
 toc: true
+lastmod: '2021-09-24T19:34:03.334Z'
 ---
 
 Minimal Mistakes has been developed as a [Gem-based theme](http://jekyllrb.com/docs/themes/) for easier use, and 100% compatible with GitHub Pages when used as a remote theme.

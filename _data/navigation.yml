@@ -21,80 +21,96 @@ foo:
 # main links
 main:
   - title: "Docs"
-    url: /docs/quick-start-guide/
+    url: /docs/
+    children:
+    - title: "Jekyll"
+      url: /docs/jekyll/
   - title: "Posts"
-    url: /post/index/
+    url: /posts/
   - title: "Cheats"
     url: /cheat/
   - title: "About"
     url: /about/
 
+# Home Page
+home:
+  - title: "Dome of the Docs"
+    url: /index.html
+  - title: "Docs"
+    url: /docs/
+    children:
+    - title: "Jekyll"
+      url: /docs/jekyll/
+    - title: "Command"
+      url: /docs/cl/
+    - title: "Code"
+      url: /docs/code/
 # documentation links
 docs:
+  - title: Jekyll
   - title: Getting Started
     children:
       - title: "Quick-Start Guide"
-        url: /docs/quick-start-guide/
+        url: /docs/jekyll/01-quick-start-guide/
       - title: "Structure"
-        url: /docs/structure/
+        url: /docs/jekyll/02-structure/
       - title: "Installation"
-        url: /docs/installation/
+        url: /docs/jekyll/03-installation/
       - title: "Upgrading"
-        url: /docs/upgrading/
+        url: /docs/jekyll/04-upgrading/
   - title: Customization
     children:
       - title: "Configuration"
-        url: /docs/configuration/
+        url: /docs/jekyll/05-configuration/
       - title: "Overriding Theme Defaults"
-        url: /docs/overriding-theme-defaults/
+        url: /docs/jekyll/06-overriding-theme-defaults/
       - title: "Navigation"
-        url: /docs/navigation/
+        url: /docs/jekyll/07-navigation/
       - title: "UI Text"
-        url: /docs/ui-text/
+        url: /docs/jekyll/08-ui-text/
       - title: "Authors"
-        url: /docs/authors/
+        url: /docs/jekyll/09-authors/
       - title: "Layouts"
-        url: /docs/layouts/
+        url: /docs/jekyll/10-layouts/
   - title: Content
     children:
       - title: "Working with Posts"
-        url: /docs/posts/
+        url: /docs/jekyll/11-posts/
       - title: "Working with Pages"
-        url: /docs/pages/
+        url: /docs/jekyll/12-pages/
       - title: "Working with Collections"
-        url: /docs/collections/
+        url: /docs/jekyll/13-collections/
       - title: "Helpers"
-        url: /docs/helpers/
+        url: /docs/jekyll/14-helpers/
       - title: "Utility Classes"
-        url: /docs/utility-classes/
+        url: /docs/jekyll/15-utility-classes/
   - title: Extras
     children:
       - title: "Stylesheets"
-        url: /docs/stylesheets/
+        url: /docs/jekyll/16-stylesheets/
       - title: "JavaScript"
-        url: /docs/javascript/
-  - title: Meta
-    children:
-      - title: "History"
-        url: /docs/history/
-      - title: "Contributing"
-        url: /docs/contributing/
-      - title: "Old 2.2 Docs"
-        url: /docs/docs-2-2/
-      - title: "License"
-        url: /docs/license/
-      - title: "Terms &amp; Privacy Policy"
-        url: /terms/
+        url: /docs/jekyll/17-javascript/
+
 
 # Cheatsheets
 cheat:
   - title: "Cheatsheets"
     children:
-      - title: "PowerShell"
-        url: /cheat/powershell/
-      - title: "Bash"
-        url: /cheat/bash/
+      - title: "Command Line"
+        url: /cheat/command-line/
+      - title: "Programming Languages"
+        url: /cheat/programming-languages/
 
+# Literature
+literature:
+  - title: "Books"
+    children:
+      - title: "Fiction"
+        url: /books/fiction/
+      - title: "Non-Fiction"
+        url: /books/non-fiction/
+
+# About Me
 about:
   - title: "about"
     children:

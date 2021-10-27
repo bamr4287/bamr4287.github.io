@@ -1,7 +1,6 @@
 ---
 title: Upgrading
 layout: single
-permalink: /docs/upgrading/
 excerpt: Instructions and suggestions for upgrading the theme.
 last_modified_at: 2021-06-23T12:15:34.000Z
 toc: true

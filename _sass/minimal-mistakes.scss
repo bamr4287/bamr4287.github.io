@@ -6,13 +6,16 @@
 
 /* Variables */
 @import "minimal-mistakes/variables";
+@import "minimal-mistakes/breakpoints";
 
 /* Mixins and functions */
 @import "minimal-mistakes/vendor/breakpoint/breakpoint";
 @include breakpoint-set("to ems", true);
+@import "minimal-mistakes/rfs";
 @import "minimal-mistakes/vendor/magnific-popup/magnific-popup"; // Magnific Popup
 @import "minimal-mistakes/vendor/susy/susy";
 @import "minimal-mistakes/mixins";
+@import "minimal-mistakes/content";
 
 /* Core CSS */
 @import "minimal-mistakes/reset";
@@ -38,3 +41,6 @@
 @import "minimal-mistakes/archive";
 @import "minimal-mistakes/sidebar";
 @import "minimal-mistakes/print";
+
+/* Navigation */
+@import "minimal-mistakes/navbar";
