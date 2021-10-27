@@ -3,7 +3,7 @@ title: Command Line
 description: Command Line Cheatsheet
 collection: cheats
 permalink: /cheat/command-line/
-lastmod: '2021-10-15T03:18:33.623Z'
+lastmod: '2021-10-27T17:47:23.073Z'
 ---
 
 # Command Line
