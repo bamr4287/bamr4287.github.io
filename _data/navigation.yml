@@ -71,7 +71,7 @@ docs:
       - title: "Authors"
         url: /docs/jekyll/09-authors/
       - title: "Layouts"
-        url: /docs/jekyll/10-layouts/
+        url: /docs/jekyll/layouts/
   - title: Content
     children:
       - title: "Working with Posts"

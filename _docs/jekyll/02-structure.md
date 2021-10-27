@@ -1,9 +1,9 @@
 ---
 title: Structure
-layout: single
+layout: post
 excerpt: How the theme is organized and what all of the files are for.
 last_modified_at: 2018-03-20T19:19:22.000Z
-lastmod: '2021-09-24T21:12:53.180Z'
+lastmod: '2021-10-27T19:41:34.880Z'
 ---
 
 Nothing clever here :wink:. Layouts, data files, and includes are all placed in their default locations. Stylesheets and scripts in `assets`, and a few development related files in the project's root directory.
