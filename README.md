@@ -12,7 +12,7 @@ categories:
   - Markdown
 toc: true
 toc_sticky: true
-lastmod: '2021-10-21T02:01:19.157Z'
+lastmod: '2021-11-05T17:14:34.844Z'
 sidebar: toc
 ---
 # Hello World
@@ -26,30 +26,56 @@ _This is my Jekyll site with all my documentation and journals_
 - [x] Add quick edit links to GitHub and VS Code
 - [ ] Dark Mode toggle
   - [ ] [JTD](https://pmarsceill.github.io/just-the-docs/docs/customization/)
-- [ ] Navigation bar dropdown
-- [ ] auto genereate sidebar
+- [x] Navigation bar dropdown
+- [x] auto genereate sidebar
 - [ ] alternate TOC structures (easy/med/hard) (pc/mac/linux) (by role)
 - [ ] Tool box page
 - [ ] Contribution Instructions
 - [ ] Search engine
-- [ ] Programming Language cheat sheets
-- [ ] Accordion TOC
-- [ ] bootstrap4
-- [ ] auto navbar 
+- [x] Programming Language cheat sheets
+- [x] Accordion TOC
+- [x] bootstrap4
+- [x] auto navbar 
   - [ ] [Just the Docs](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/)
 - [ ] Add back to top button in cellphone view
 - [ ] add [plugins](https://jekyllcodex.org/without-plugins/) without plugins
 - [ ] Auto integrate/embed source code files into documentation
+- [ ] UI testing automation - [Selenium](https://www.selenium.dev/)
 
 ```javascript
 document.write('Hello, world!');
+
 ```
+[Java Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 Edit in [VSCode](vscode://file/C:/Users/AmrAbdel-Motaleb/OneDrive/Documents/GitHub/{{ page.path}})
 
+this page's path is {{ page.path}}
+
 ```powershell
-vscode://file/C:/Users/AmrAbdel-Motaleb/OneDrive/Documents/GitHub/bamr87.github.io/README.md
+vscode://file/C:/Users/AmrAbdel-Motaleb/OneDrive/Documents/GitHub/{{ page.path}}
+
 ```
+```bash
+code $HOME/Github/
+```
+
+```html
+<div class="sidebar__top">
+  <a href="{{raw}}{{site.github.repository_url}}/blob/gh-pages/{{page.name}}{{endraw}}">
+    <i class="fab fa-github-square"></i>
+  </a>
+  <a href="vscode://file{{ site.local_git_pc}}/{{ site.local_repo }}/{{ page.path }}">
+    <i class="fas fa-laptop-code"></i>
+  </a>
+  <a href="vscode://file{{ site.local_git_mac}}/{{ site.local_repo }}/{{ page.path }}">
+    <i class="fas fa-laptop-code"></i>
+  </a>
+  <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
+</div>  
+```
+
+
 [source](https://stackoverflow.com/questions/48641921/is-it-possible-to-use-the-vscode-hyperlink-to-open-a-file-or-directory-in-code)
 
 ## Project List:
