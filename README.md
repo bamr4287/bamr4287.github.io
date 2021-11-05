@@ -12,7 +12,7 @@ categories:
   - Markdown
 toc: true
 toc_sticky: true
-lastmod: '2021-11-05T17:14:34.844Z'
+lastmod: '2021-11-05T22:37:15.627Z'
 sidebar: toc
 ---
 # Hello World
@@ -37,10 +37,11 @@ _This is my Jekyll site with all my documentation and journals_
 - [x] bootstrap4
 - [x] auto navbar 
   - [ ] [Just the Docs](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/)
-- [ ] Add back to top button in cellphone view
+- [ ] Add back to [top button](https://jun711.github.io/web/how-to-highlight-code-on-a-Jekyll-site-syntax-highlighting/) in cellphone view
 - [ ] add [plugins](https://jekyllcodex.org/without-plugins/) without plugins
 - [ ] Auto integrate/embed source code files into documentation
 - [ ] UI testing automation - [Selenium](https://www.selenium.dev/)
+- [ ] code snippet syntax [highlighting](https://jun711.github.io/web/how-to-highlight-code-on-a-Jekyll-site-syntax-highlighting/) 
 
 ```javascript
 document.write('Hello, world!');
@@ -60,9 +61,16 @@ vscode://file/C:/Users/AmrAbdel-Motaleb/OneDrive/Documents/GitHub/{{ page.path}}
 code $HOME/Github/
 ```
 
+```liquid
+{% raw %}
+{{site.github.repository_url}}
+{% endraw %}
+```
+
 ```html
+{%raw %}
 <div class="sidebar__top">
-  <a href="{{raw}}{{site.github.repository_url}}/blob/gh-pages/{{page.name}}{{endraw}}">
+  <a href="'''liquid{{site.github.repository_url}}'''/blob/gh-pages/{{page.name}}">
     <i class="fab fa-github-square"></i>
   </a>
   <a href="vscode://file{{ site.local_git_pc}}/{{ site.local_repo }}/{{ page.path }}">
@@ -72,7 +80,8 @@ code $HOME/Github/
     <i class="fas fa-laptop-code"></i>
   </a>
   <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-</div>  
+</div>
+{% endraw %}
 ```
 
 
