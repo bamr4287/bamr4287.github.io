@@ -2,9 +2,8 @@
 title: Git-Jekyll-Pages
 date: '2021-08-15 15:23'
 permalink: /post/git-jekyll/
-
 sidebar: toc
-lastmod: '2021-09-23T14:56:04.317Z'
+lastmod: '2021-11-11T01:45:19.322Z'
 ---
 
 # Hello World

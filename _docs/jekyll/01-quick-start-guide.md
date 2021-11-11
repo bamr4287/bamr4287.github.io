@@ -1,22 +1,22 @@
 ---
 title: Quick-Start Guide
-categories: 
+categories:
    - Jekyll
 excerpt: How to quickly install and setup Minimal Mistakes for use with GitHub Pages.
 last_modified_at: 2021-06-07T12:48:05.000Z
 redirect_from:
    - /theme-setup/
 toc: true
-lastmod: '2021-09-24T19:34:03.334Z'
+lastmod: '2021-11-11T02:02:50.277Z'
 ---
 
-Minimal Mistakes has been developed as a [Gem-based theme](http://jekyllrb.com/docs/themes/) for easier use, and 100% compatible with GitHub Pages when used as a remote theme.
+Minimal Mistakes has been developed as a [Gem-based theme]() for easier use, and 100% compatible with GitHub Pages when used as a remote theme.
 
-**If you enjoy this theme, please consider [sponsoring me](https://github.com/sponsors/mmistakes) to continue developing and maintaining it.**
+**If you enjoy this theme, please consider [sponsoring me]() to continue developing and maintaining it.**
 
-[!["Buy Me A Coffee"](https://user-images.githubusercontent.com/1376749/120938564-50c59780-c6e1-11eb-814f-22a0399623c5.png)](https://www.buymeacoffee.com/mmistakes)
+[!["Buy Me A Coffee"](https://user-images.githubusercontent.com/1376749/120938564-50c59780-c6e1-11eb-814f-22a0399623c5.png)]()
 
-[![Support via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)](https://www.paypal.me/mmistakes)
+[![Support via PayPal](https://cdn.jsdelivr.net/gh/twolfson/paypal-github-button@1.0.0/dist/button.svg)]()
 {: style="margin-top: 0.5em;"}
 
 ## Installing the theme

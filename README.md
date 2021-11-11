@@ -12,7 +12,7 @@ categories:
   - Markdown
 toc: true
 toc_sticky: true
-lastmod: '2021-11-05T22:37:15.627Z'
+lastmod: '2021-11-06T20:10:18.676Z'
 sidebar: toc
 ---
 # Hello World
@@ -42,47 +42,15 @@ _This is my Jekyll site with all my documentation and journals_
 - [ ] Auto integrate/embed source code files into documentation
 - [ ] UI testing automation - [Selenium](https://www.selenium.dev/)
 - [ ] code snippet syntax [highlighting](https://jun711.github.io/web/how-to-highlight-code-on-a-Jekyll-site-syntax-highlighting/) 
+- [ ] page revision view (diff)
 
-```javascript
-document.write('Hello, world!');
 
-```
 [Java Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
 
 Edit in [VSCode](vscode://file/C:/Users/AmrAbdel-Motaleb/OneDrive/Documents/GitHub/{{ page.path}})
 
 this page's path is {{ page.path}}
 
-```powershell
-vscode://file/C:/Users/AmrAbdel-Motaleb/OneDrive/Documents/GitHub/{{ page.path}}
-
-```
-```bash
-code $HOME/Github/
-```
-
-```liquid
-{% raw %}
-{{site.github.repository_url}}
-{% endraw %}
-```
-
-```html
-{%raw %}
-<div class="sidebar__top">
-  <a href="'''liquid{{site.github.repository_url}}'''/blob/gh-pages/{{page.name}}">
-    <i class="fab fa-github-square"></i>
-  </a>
-  <a href="vscode://file{{ site.local_git_pc}}/{{ site.local_repo }}/{{ page.path }}">
-    <i class="fas fa-laptop-code"></i>
-  </a>
-  <a href="vscode://file{{ site.local_git_mac}}/{{ site.local_repo }}/{{ page.path }}">
-    <i class="fas fa-laptop-code"></i>
-  </a>
-  <a href="#page-title" class="back-to-top">{{ site.data.ui-text[site.locale].back_to_top | default: 'Back to Top' }} &uarr;</a>
-</div>
-{% endraw %}
-```
 
 
 [source](https://stackoverflow.com/questions/48641921/is-it-possible-to-use-the-vscode-hyperlink-to-open-a-file-or-directory-in-code)
