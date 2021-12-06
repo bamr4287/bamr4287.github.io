@@ -12,44 +12,14 @@ categories:
   - Markdown
 toc: true
 toc_sticky: true
-lastmod: '2021-11-06T20:10:18.676Z'
+lastmod: '2021-12-06T01:52:33.765Z'
 sidebar: toc
 ---
 # Hello World
 
 _This is my Jekyll site with all my documentation and journals_
 
-## Feature List: 
 
-- [x] Code Copy button
-- [x] Side table of contents
-- [x] Add quick edit links to GitHub and VS Code
-- [ ] Dark Mode toggle
-  - [ ] [JTD](https://pmarsceill.github.io/just-the-docs/docs/customization/)
-- [x] Navigation bar dropdown
-- [x] auto genereate sidebar
-- [ ] alternate TOC structures (easy/med/hard) (pc/mac/linux) (by role)
-- [ ] Tool box page
-- [ ] Contribution Instructions
-- [ ] Search engine
-- [x] Programming Language cheat sheets
-- [x] Accordion TOC
-- [x] bootstrap4
-- [x] auto navbar 
-  - [ ] [Just the Docs](https://pmarsceill.github.io/just-the-docs/docs/navigation-structure/)
-- [ ] Add back to [top button](https://jun711.github.io/web/how-to-highlight-code-on-a-Jekyll-site-syntax-highlighting/) in cellphone view
-- [ ] add [plugins](https://jekyllcodex.org/without-plugins/) without plugins
-- [ ] Auto integrate/embed source code files into documentation
-- [ ] UI testing automation - [Selenium](https://www.selenium.dev/)
-- [ ] code snippet syntax [highlighting](https://jun711.github.io/web/how-to-highlight-code-on-a-Jekyll-site-syntax-highlighting/) 
-- [ ] page revision view (diff)
-
-
-[Java Docs](https://developer.mozilla.org/en-US/docs/Web/JavaScript)
-
-Edit in [VSCode](vscode://file/C:/Users/AmrAbdel-Motaleb/OneDrive/Documents/GitHub/{{ page.path}})
-
-this page's path is {{ page.path}}
 
 
 
